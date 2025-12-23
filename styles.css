@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background: #990000;
+    background: #005E60;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -53,7 +53,7 @@ header p {
 }
 
 .fixed-nav {
-    background: #990000;
+    background: #005E60;
     position: fixed;
     top: 0;
     width: 100%;
@@ -109,7 +109,7 @@ main section {
 main section h2 {
     margin-bottom: 10px;
     font-family: 'Lato', sans-serif;
-    color: #990000;
+    color: #005E60;
 }
 
 main section p {
@@ -150,7 +150,7 @@ main section ol li::before {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #990000;
+    background: #005E60;
     color: #fff;
     margin-top: 20px;
     position: relative;
