@@ -41,6 +41,7 @@ header .header-text {
     max-width: 600px;
     text-align: center;
     padding: 10px; /* Reduced padding */
+    font-size: 15px;
 }
 
 header h1 {
