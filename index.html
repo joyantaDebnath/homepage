@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyanta Debnath</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <style>
+        .social-icon {
+            width: 25px;  /* Reduced size */
+            height: 25px;  /* Reduced size */
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="photo.JPG" alt="Joyanta Debnath" class="profile-img">
+            <div class="header-text">
+                <h1>Joyanta Debnath</h1>
+                <p>Ph.D. Candidate<br />Stony Brook University, New York, USA</p>
+                <p>Contact: <a href="mailto:jdebnath@cs.stonybrook.edu" style="color: white;">jdebnath@cs.stonybrook.edu</a></p>
+                <p>
+                    <a href="https://www.linkedin.com/in/joyanta-debnath-4bb599193" target="_blank">
+                        <img src="linkedin.png" alt="LinkedIn" class="social-icon">
+                    </a>
+                    <a href="https://x.com/joyantadebnat10" target="_blank">
+                        <img src="x.png" alt="X" class="social-icon">
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=nTKQCyYAAAAJ&hl=en" target="_blank">
+                        <img src="google.svg" alt="Google Scholar" class="social-icon">
+                    </a>
+                </p>
+            </div>
+        </div>
+    </header>
+    <nav class="fixed-nav">
+        <ul>
+            <li><a href="#biography">About Me</a></li>
+            <li><a href="#research-interests">Research Interests</a></li>
+            <li><a href="#recent-news">Recent Updates</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#miscellaneous">Resume</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <section id="biography" class="fade-in">
+            <h2>About Me</h2>
+            <p>I am currently a Computer Science Ph.D. candidate at <a href="https://cs.stonybrook.edu/">Stony Brook University</a> under the supervision of <a href="https://www3.cs.stonybrook.edu/~omar">Omar Haider Chowdhury, Ph.D</a>. Before transferring to Stony Brook, I was a Computer Science Ph.D. student at <a href="https://cs.uiowa.edu">University of Iowa</a>, and working as a Research Assistant of Dr. Chowdhury. I obtained my Bachelor degree in Computer Science and Engineering from the <a href="https://cse.buet.ac.bd/">Bangladesh University of Engineering and Technology</a> (BUET) in 2017.</p>
+        </section>
+        <section id="research-interests" class="fade-in">
+            <h2>Research Interests</h2>
+            <p>My research interest lies at the intersection of computer security and automated reasoning. I have extensive experience on applying different techniques from formal verification to enhance security, reliability, and robustness of modern systems and protocols. I am also interested to automatically detect functional bugs in network protocols and safety-critical cyber-physical and IoT systems. Currently, I am investigating exploitable weaknesses in SSL/TLS protocol as well as analyzing the robustness of X.509 certificate validation implemented in various open-source implementations. I am committed to advancing the state-of-the-art in formal verification and computer security and making the digital world safer for everyone.</p>
+        </section>
+        <section id="recent-news" class="fade-in">
+            <h2>Recent Updates</h2>
+                <p>Our formally verified implementation of X.509 certificate chain validation (ARMOR) is published in IEEE S&P 2024.</p>
+                <p>I will work as a research intern at GE Vernova with the Embedded System team during Summer 2024.</p>
+                <p>I am transferred to the Computer Science Ph.D. program at Stony Brook University in Spring 2023.</p>
+                <p>Our work on X.509 PKI has received the Best Student Paper Award (Runners-up) in ACM CCS 2021.</p>
+                <p>Our work on proxy-based mobile browsers' security has received the Best Student Paper Award (Winner) in ACNS 2020.</p>
+            </ul>
+        </section>
+        <section id="publications" class="fade-in">
+            <h2>Publications </h2>
+                
+                    
+                        <p>"<a href="https://www.computer.org/csdl/proceedings-article/sp/2024/313000a200/1WPcYqbt6qk">ARMOR: A Formally Verified Implementation of X.509 Certificate Chain Validation</a>".
+                            <br /> * <a href="slides/armor-slides-long.pptx"><u>Slides</u></a> * <a href="pdfs/armor-full-version.pdf"><u>Paper (Full Version)</u></a> * <a href="https://github.com/joyantaDebnath/ARMOR"><u>Github</u></a> *
+                        <br />With <i>Christa Jenkins, Yuteng Sun, Sze Yiu Chau, and Omar Chowdhury</i>.
+                        <br />Appeared in the 45th IEEE Symposium on Security and Privacy (<a href="https://sp2024.ieee-security.org/">IEEE S&P 2024</a>).</p>
+                       
+                        <br />
+		   
+                        <p>"<a href="https://ieeexplore.ieee.org/abstract/document/10329388">Towards a Correct-by-Construction Design of Integrated Modular Avionics</a>".
+                            <br /> * <a href="pdfs/Towards_a_Correct-by-Construction_Design_of_Integrated_Modular_Avionics.pdf"><u>Paper</u></a> * <a href="https://github.com/ge-high-assurance/OYSTER"><u>Github</u></a> *
+                        <br />With <i>Baoluo Meng, Sarat Chandra Varanasi, Emmanuel Manoloios, Michael Durling, and Saswata Paul</i>.
+                        <br />Appeared in the 23rd Formal Methods in Computer-Aided Design (<a href="https://fmcad.org/FMCAD23/">FMCAD 2023</a>).</p>
+                    
+                        <br />
+                        <p>"<a href="https://doi.org/10.1145/3460120.3484793">On Re-engineering the X.509 PKI with Executable Specification for Better Implementation Guarantees</a>".
+                            <br /> * <a href="slides/ceres-ccs21-debnath.pptx"><u>Slides</u></a> * <a href="pdfs/ccsfp468-debnath.pdf"><u>Paper</u></a> * <a href="https://github.com/joyantaDebnath/CERES"><u>Github</u></a> *
+                        <br />With <i>Sze Yiu Chau, and Omar Chowdhury</i>.
+                        <br />Appeared in the Proceedings of the 28th ACM Conference on Computer and Communications Security (<a href="https://www.sigsac.org/ccs/CCS2021/">ACM CCS 2021</a>).
+                        <br />*** Best Student Paper Award (<i>Runners-up</i>) ***</p>
+                        <br />
+                        <p>"<a href="https://doi.org/10.1145/3460120.3484569">All your credentials are belong to us: On Insecure WPA2-Enterprise Configurations</a>".
+                            <br /> * <a href="pdfs/ccsfp252-hue.pdf"><u>Paper</u></a> *
+                        <br />With <i>Man Hong Hue, Kin Man Leung, Li Li, Mohsen Minaei, M. Hammad Mazhar, Kailiang Xian, Endadul Hoque, Omar Chowdhury, and Sze Yiu Chau</i>.
+                        <br />Appeared in the Proceedings of the 28th ACM Conference on Computer and Communications Security (<a href="https://www.sigsac.org/ccs/CCS2021/">ACM CCS 2021</a>).</p>
+                        <br />
+                    
+                        <p>"<a href="https://doi.org/10.1145/3460120.3485382">Morpheus: Bringing The (PKCS) One To Meet the Oracle</a>".
+                            <br /> * <a href="pdfs/ccsfp553-yahyazadeh.pdf"><u>Paper</u></a> * <a href="https://github.com/Morpheus-Repo/Morpheus"><u>Github</u></a> *
+                        <br />With <i>Moosa Yahyazadeh, Sze Yiu Chau, Li Li, Man Hong Hue, Sheung Chiu Ip, Li Chun Ngai, Endadul Hoque, and Omar Chowdhury</i>.
+                        <br />Appeared in the Proceedings of the 28th ACM Conference on Computer and Communications Security (<a href="https://www.sigsac.org/ccs/CCS2021/">ACM CCS 2021</a>).</p>
+                        <br />
+                    
+                        <p>"<a href="https://doi.org/10.1007/978-3-030-57878-7_19">When TLS Meets Proxy on Mobile</a>".
+                            <br /> * <a href="slides/proxy-acns20-debnath.pptx"><u>Slides</u></a> * <a href="pdfs/acnsDebnath2020.pdf"><u>Paper</u></a> * <a href="https://github.com/joyantaDebnath/When-TLS-Meets-Proxy-on-Mobile"><u>Github</u></a> *
+                        <br />With <i>Sze Yiu Chau, and Omar Chowdhury</i>.
+                        <br />Appeared in the 18th International Conference of Applied Cryptography and Network Security (<a href="https://sites.google.com/di.uniroma1.it/ACNS2020">ACNS 2020</a>).
+                        <br />*** Best Student Paper Award (<i>Winner</i>) ***</p>
+                    
+            </section>
+        <section id="miscellaneous" class="fade-in">
+            <h2>Resume</h2>
+            <p><a href="pdfs/cv_joyanta_2024.pdf" target="_blank">Resume</a> (Updated on 08.26.2024)</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Joyanta Debnath. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
